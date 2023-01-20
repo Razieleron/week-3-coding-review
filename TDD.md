@@ -2,17 +2,19 @@ Describe misterRoboger()
 
 Test: "It should return a 1 if the entry is 1"
 Code:
-let input = parseInt(document.querySelector("input#number").value)
+let input = 1
 let number = []
-Expected Output: 1
+Expected Output: "1"
 
-Test:
+Test: "It should return a series of numbers up to 10"
 Code:
-Expected Output:
+let input = 10
+let number = []
+Expected Output: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
 
-Test:
+Test: 
 Code:
-Expected Output:
+Expected Output: 
 
 Test:
 Code:
