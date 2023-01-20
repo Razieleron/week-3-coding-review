@@ -27,11 +27,14 @@ Expected Output: "0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!"
 Test:"It should return 'Boop!' when the index is 2, and it should return 'Beep!' when the index is 1"
 Code:
 let input = 3
+let number = []
 Expected Output: "0, 'Beep!', 'Boop!', 3"
 
-Test:
+Test:"It should return 'Boop!' when the index is 12 - so the logic for 'Boop!' should supercede the logic for 'Beep!'"
 Code:
-Expected Output:
+let input = 12
+let number = []
+Expected Output: "0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!'"
 
 Test:
 Code:
