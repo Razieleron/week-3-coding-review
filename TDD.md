@@ -36,34 +36,15 @@ let input = 12
 let number = []
 Expected Output: "0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!'"
 
-Test:
+Test:"It should return 'Won't you be my neighbor?' when the index is 3, 'Boop!' when the index is 2, and 'Beep!' when the index is 1" 
 Code:
-Expected Output:
+let input = 3
+let number = []
+Expected Output: "0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'"
 
-Test:
+Test:"It should return 'Won't you be my neighbor?' when the index *contains* a 3, 'Boop!' when the index *contains* a 2, and 'Beep!' when the index *contains* a 1, no matter how high the number the user inputs"
 Code:
-Expected Output:
+let input = 100
+let number = []
+Expected Output: "0, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Boop!', 'Boop!', 'Boop!', 'Won't you be my neighbor?', 'Boop!', 'Boop!', 'Boop!', 'Boop!', 'Boop!', 'Boop!', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 'Won't you be my neighbor?', 40, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 44, 45, 46, 47, 48, 49, 50, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 54, 55, 56, 57, 58, 59, 60, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 64, 65, 66, 67, 68, 69, 70, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 74, 75, 76, 77, 78, 79, 80, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 84, 85, 86, 87, 88, 89, 90, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 94, 95, 96, 97, 98, 99, 'Beep!'"
 
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
-
-Test:
-Code:
-Expected Output:
