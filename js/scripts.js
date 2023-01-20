@@ -1,13 +1,15 @@
 function handleFormSubmission(event) {
   event.preventDefault();
 
-  let input = document.getElementById("number");
+  let input = parseInt(document.querySelector("input#number").value)
+  let numbers = []
 
-  if (input === 1) {
-    output = "ayyy we did it";
+  for(let index = 1; index <= input; index += 1) {
+    numbers.push(" " + index)
   }
+  
 
-  document.getElementById("output").innerText = output;
+  document.getElementById("answer").innerText = numbers;
 }
 
 
