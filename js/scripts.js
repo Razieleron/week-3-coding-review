@@ -1,19 +1,18 @@
-function handleFormSubmission() {
+function handleFormSubmission(event) {
   event.preventDefault();
-  const passage = document.getElementById("text-passage").value;
-  const word = document.getElementById("word").value;
-  const wordCount = wordCounter(passage);
-  const occurrencesOfWord = numberOfOccurrencesInText(word, passage);
-  document.getElementById("total-count").innerText = wordCount;
-  document.getElementById("selected-count").innerText = occurrencesOfWord;
 
-  let boldedPassage = boldPassage(word, passage);
-  if (boldedPassage) {
-    document.querySelector("div#bolded-passage").append(boldedPassage);
-  } else {
-    document.querySelector("div#bolded-passage").innerText = null;
+  let input = document.getElementById("number");
+
+  if (input === 1) {
+    output = "ayyy we did it";
   }
+
+  document.getElementById("output").innerText = output;
 }
+
+
+
 window.addEventListener("load", function() {
-  document.querySelector("form#form-control").addEventListener("submit", handleFormSubmission);
+  const form = document.getElementById("question");
+  form.addEventListener("submit", handleFormSubmission);
 });
