@@ -14,13 +14,15 @@ Expected Output: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
 
 Test: "It should return 'Beep!' when the input is 1"
 Code:
-let input = 10
+let input = 1
 let number = []
 Expected Output: "0, 'Beep!'" 
 
-Test:
+Test:"It should return 'Beep!' when the input is 10 as well as when it is 1"
 Code:
-Expected Output:
+let input = 10
+let number = []
+Expected Output: "0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!"
 
 Test:
 Code:
