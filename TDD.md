@@ -1,8 +1,10 @@
 Describe misterRoboger()
 
-Test:
+Test: "It should return a 1 if the entry is 1"
 Code:
-Expected Output:
+let input = parseInt(document.querySelector("input#number").value)
+let number = []
+Expected Output: 1
 
 Test:
 Code:
