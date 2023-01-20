@@ -6,7 +6,9 @@ function misterRoboger(event) {
 
   for (let index = 0; index <= input; index += 1) {
     let indexString = index.toString();
-    if (indexString.includes(1)) {
+    if (indexString.includes(2)) {
+      numbers.push(" 'Boop!'");
+    } else if (indexString.includes(1)) {
       numbers.push(" 'Beep!'");
     } else {
       numbers.push(" " + index);
