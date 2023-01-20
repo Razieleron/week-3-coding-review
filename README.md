@@ -36,32 +36,28 @@ TDD Documentation:
 
 Describe misterRoboger()
 
-Test: "It should return a 1 if the entry is 1"
-
+Test: "It should return a 1 if the entry is 1"<br>
 Code:<br>
 let input = 1<br>
 let number = []<br>
 Expected Output: "1"
 
 
-Test: "It should return a series of numbers up to 10"
-
+Test: "It should return a series of numbers up to 10"<br>
 Code:<br>
 let input = 10<br>
 let number = []<br>
 Expected Output: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
 
 
-Test: "It should return 'Beep!' when the input is 1"
-
+Test: "It should return 'Beep!' when the input is 1"<br>
 Code:<br>
 let input = 1<br>
 let number = []<br>
 Expected Output: "0, 'Beep!'" 
 
 
-Test:"It should return 'Beep!' when the input is 10 as well as when it is 1"
-
+Test:"It should return 'Beep!' when the input is 10 as well as when it is 1"<br>4
 Code:<br>
 let input = 10<br>
 let number = []<br>
@@ -69,8 +65,7 @@ Expected Output: "0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!"
 
 
 Test:"It should return 'Boop!' when the index is 2, and it should return 'Beep!' 
-when the index is 1"
-
+when the index is 1"<br>
 Code:<br>
 let input = 3<br>
 let number = []<br>
@@ -78,24 +73,21 @@ Expected Output: "0, 'Beep!', 'Boop!', 3"
 
 
 Test:"It should return 'Boop!' when the index is 12 - so the logic for 'Boop!' 
-should supercede the logic for 'Beep!'"
-
+should supercede the logic for 'Beep!'"<br>
 Code:<br>
 let input = 12<br>
 let number = []<br>
 Expected Output: "0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!'"
 
 
-Test:"It should return 'Won't you be my neighbor?' when the index is 3, 'Boop!' when the index is 2, and 'Beep!' when the index is 1" 
-
+Test:"It should return 'Won't you be my neighbor?' when the index is 3, 'Boop!' when the index is 2, and 'Beep!' when the index is 1" <br>
 Code:<br>
 let input = 3<br>
 let number = []<br>
 Expected Output: "0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'"
 
 
-Test:"It should return 'Won't you be my neighbor?' when the index *contains* a 3, 'Boop!' when the index *contains* a 2, and 'Beep!' when the index *contains* a 1, no matter how high the number the user inputs"
-
+Test:"It should return 'Won't you be my neighbor?' when the index *contains* a 3, 'Boop!' when the index *contains* a 2, and 'Beep!' when the index *contains* a 1, no matter how high the number the user inputs"<br>
 Code:<br>
 let input = 100<br>
 let number = []<br>
