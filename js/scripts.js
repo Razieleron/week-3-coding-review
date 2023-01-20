@@ -4,13 +4,17 @@ function misterRoboger(event) {
   let input = parseInt(document.querySelector("input#number").value)
   let numbers = []
 
-  for (let index = 1; index <= input; index += 1) {
-    numbers.push(" " + index)
+  for (let index = 0; index <= input; index += 1) {
+    let indexString = index.toString();
+    if (indexString.includes(1)) {
+      numbers.push(" 'Beep!'");
+    } else {
+      numbers.push(" " + index);
   }
 
   document.getElementById("answer").innerText = numbers;
 }
-
+}
 
 
 window.addEventListener("load", function() {
