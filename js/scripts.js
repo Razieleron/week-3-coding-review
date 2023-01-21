@@ -1,3 +1,5 @@
+// Business Logic:
+
 function misterRoboger(event) {
   event.preventDefault();
 
@@ -20,7 +22,7 @@ function misterRoboger(event) {
 }
 }
 
-
+// UI Logic:
 window.addEventListener("load", function() {
   const form = document.getElementById("question");
   form.addEventListener("submit", misterRoboger);
