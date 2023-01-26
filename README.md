@@ -23,10 +23,12 @@ Web Browser (to view rendered code)
 Text Editor (to view raw code)
 Image Editing/Viewing software (to look at pretty pictures)
 
-<strong>Link to Site:</strong>
+In order to view this webpage, you have download the zip file (located at the bottom of the menu when you click the [<> Code ]), or clone the repository to a local drive.  Once you have the directory(ies) installed on your machine (or a clone of it), you can open the webpage using your default browser by double-clicking on the file marked 'index.html'
 
+<strong>Link to Project Repository and link to Personal Repository:</strong>
+
+This *particular* repository: https://github.com/Razieleron/week-3-coding-review<br>
 My whole Repository: https://github.com/Razieleron/razieleron.github.io<br>
-This *particular* repository: https://github.com/Razieleron/week-3-coding-review
 
 <strong>Known Bugs:</strong>
 
